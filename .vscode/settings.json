@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/rajeev-gupta/grid_ws/devel/lib/python3/dist-packages",
+        "/home/rajeev-gupta/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/rajeev-gupta/grid_ws/devel/lib/python3/dist-packages",
+        "/home/rajeev-gupta/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

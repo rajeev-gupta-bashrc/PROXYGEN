@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>proxygen</name>
+  <version>2.0.2</version>
+  <description>
+    A robotic arm developed under Models and Robotics Section.
+  </description>
+  <license>Apache 2.0</license>
+  <author email="rajeev.dharmendra.gupta@gmail.com">Rajeev Gupta</author>
+  <maintainer email="rajeev.dharmendra.gupta@gmail.com">Rajeev Gupta</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>proxygen_control_gui</exec_depend>
+  <exec_depend>proxygen_controller</exec_depend>
+  <exec_depend>proxygen_description</exec_depend>
+  <exec_depend>proxygen_libs</exec_depend>
+  <exec_depend>proxygen_teleop</exec_depend>
+  <export><metapackage/></export>
+</package>

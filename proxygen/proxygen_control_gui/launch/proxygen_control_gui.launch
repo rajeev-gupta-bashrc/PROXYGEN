@@ -1,0 +1,8 @@
+<launch>
+  <arg name="robot_name"   default="proxygen"/>
+  <arg name="end_effector" default="gripper"/>
+
+  <node name="control_gui" pkg="proxygen_control_gui" type="proxygen_control_gui" output="screen">
+    <remap from="kinematics_pose" to="$(arg end_effector)/kinematics_pose"/>
+  </node>
+</launch>

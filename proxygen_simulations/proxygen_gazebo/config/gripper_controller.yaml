@@ -1,0 +1,8 @@
+gripper_suction:
+  type: velocity_controllers/JointVelocityController
+  joint: end_effector_joint
+
+
+gazebo_ros_control:
+  pid_gains:
+    end_effector_joint: {p: 0.01, i: 0.001, d: 0.0001}
