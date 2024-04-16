@@ -2,7 +2,7 @@
 
 Proxygen is a robotic system developed using the MoveIt package in ROS Noetic. It is designed to handle package sorting and delivery tasks efficiently. Proxygen integrates with hardware components to perform tasks such as detecting delivery boxes using a depth camera, picking them up using a suction gripper, and placing them in designated areas.
 
-![Mobile Manipulator Robot](https://github.com/rajeev-gupta-bashrc/PROXYGEN/images/blob/proxygen_hardware.jpg)
+![Mobile Manipulator Robot](https://github.com/rajeev-gupta-bashrc/PROXYGEN/blob/main/images/proxygen_hardware.jpg)
 
 ## Hardware Specifications
 
@@ -20,14 +20,14 @@ Proxygen performs the following tasks:
 
 1. **Visual Input Processing**: Utilizes the depth camera to capture visual data of the environment.
 
-![Mobile Manipulator Robot](https://github.com/rajeev-gupta-bashrc/PROXYGEN/images/blob/image_tracking.jpg)
+![Mobile Manipulator Robot](https://github.com/rajeev-gupta-bashrc/PROXYGEN/blob/main/images/image_tracking.png)
 
 2. **Object Detection**: Detects delivery boxes or packages within the camera's field of view.
 3. **Coordinate Transformations**: Manipulates the acquired depth data through coordinate transformations to calculate the 3D positions of the packages relative to the base frame of the robot.
 4. **Motion Planning**: Utilizes MoveIt for motion planning to pick up and place the packages.
 5. **Inverse Kinematics**: Calculates joint configurations using inverse kinematics to reach desired end-effector positions.
 
-![Mobile Manipulator Robot](https://github.com/rajeev-gupta-bashrc/PROXYGEN/images/blob/proxygen_gazebo.jpg)
+![Mobile Manipulator Robot](https://github.com/rajeev-gupta-bashrc/PROXYGEN/blob/main/images/proxygen_gazebo.jpg)
 
 6. **Gripper Control**: Activates the suction gripper to pick up and release packages as required.
 7. **Package Delivery**: Places the packages in designated areas according to predefined instructions.
@@ -55,6 +55,6 @@ With its integrated hardware and software components, Proxygen provides an effic
 
 ## Results:
 
-![Mobile Manipulator Robot](https://github.com/rajeev-gupta-bashrc/PROXYGEN/images/blob/proxygen_hardware.gif)
+![Mobile Manipulator Robot](https://github.com/rajeev-gupta-bashrc/PROXYGEN/blob/main/images/proxygen_hardware.gif)
 
-![Mobile Manipulator Robot](https://github.com/rajeev-gupta-bashrc/PROXYGEN/images/blob/proxygen_gazebo.gif)
+![Mobile Manipulator Robot](https://github.com/rajeev-gupta-bashrc/PROXYGEN/blob/main/images/proxygen_gazebo.gif)
